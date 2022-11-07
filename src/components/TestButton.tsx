@@ -1,5 +1,5 @@
 function TestButton(): JSX.Element {
-  return <button>Make me do something when I'm clicked...</button>;
+  return <button onClick={() => window.open("https://www.w3schools.com")}></button>;
 }
 
 export default TestButton;
